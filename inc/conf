@@ -1,0 +1,8 @@
+<?php
+
+
+$iframe = "	<div id=\"divpopup\" name=\"divpopup\" class=\"dpop\" style=\"display:none\">
+				<iframe id=\"framepopup\" name=\"framepopup\" class=\"fpop\" src=\"index.html\"></iframe><br/>
+				<a href=# onClick=\"window.framepopup.location='../inc/index.html';setdisplay('divpopup',0); return false\"><button type=\"button\">TUTUP</button></a>
+			</div>";
+?>
